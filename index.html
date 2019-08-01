@@ -2,15 +2,25 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>practicing ajax requests with geonet API</title>
+
+    <style media="screen">
+      #map {
+        height: 500px;
+        width: 500px;
+      }
+    </style>
   </head>
   <body>
     <br>
-    <button id="reported" type="button" name="button">console reported intensity earthquakes</button>
+    <button id="lowIntensity" type="button" name="button">show me recent earthquakes up to magnitude 5</button>
     <br>
-    <button id="measured" type="button" name="button">console measured intensity earthquakes</button>
+    <br>
+    <button id="highIntensity" type="button" name="button">show me recent earthquakes magnitude 5 and up</button>
+    <br>
+    <div id="map"></div>
 
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHqgQ3E2uGTAeVtqHGYrN_fNqbWx5sjcI"></script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="js/script.js"></script>
   </body>
