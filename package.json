@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/19WDWU02/Geo-Net/issues"
   },
-  "homepage": "https://github.com/19WDWU02/Geo-Net#readme"
+  "homepage": "https://github.com/19WDWU02/Geo-Net#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
